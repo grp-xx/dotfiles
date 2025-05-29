@@ -1,0 +1,66 @@
+Host primary
+	HostName 172.16.135.5 
+	User ubuntu
+
+Host ubuntu
+	User gregorio
+	HostName 172.16.134.129
+
+Host lettieri
+	User gregorio
+	HostName lettieri.iet.unipi.it
+
+Host lorenz
+	User devel
+	HostName 131.114.52.254
+
+Host bo
+	User devel
+	HostName 10.0.64.10
+
+Host luke
+	User devel
+	HostName 10.0.64.20
+
+Host whiskey
+	User devel
+	HostName 10.0.64.30
+
+Host lace
+	User devel
+	HostName 10.0.64.40
+
+Host mascara
+	User devel
+	HostName 131.114.54.72
+
+Host monsters
+	User devel
+	HostName 131.114.54.73
+
+Host feynman
+	User gregorio
+	HostName 131.114.55.198
+
+Host macmini
+	User gregorio
+	HostName 192.168.1.10
+
+Host p4
+	User p4
+	HostName 10.0.2.15
+
+Host hifiberry
+	User root
+	HostName hifiberry.local
+
+Host volumio
+	User volumio
+	HostName volumio.local
+
+Host moode
+	User volumio
+	HostName moode.local
+
+Host *
+	ServerAliveInterval 240
